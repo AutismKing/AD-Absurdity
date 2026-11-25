@@ -481,6 +481,63 @@ export const tabs = [
     ]
   },
   {
+    key: "absurdity",
+    name: "Absurdity",
+    hideAt: 2.3,
+    UIClass: "o-tab-btn--absurdity",
+    // condition: () => PlayerProgress.absurdityUnlocked() || TimeStudy.absurdity.isBought,
+    id: 10,
+    hidable: true,
+    subtabs: [
+      {
+        key: "break eternity",
+        name: "Break Eternity",
+        symbol: "🜃",
+        component: "BreakEternityTab",
+        id: 0,
+        hidable: true,
+      },
+      {
+        key: "moons",
+        name: "Moons",
+        symbol: "⏾",
+        component: "MoonTab",
+        // condition: () => PlayerProgress.absurdityUnlocked() || TimeStudy.absurdity.isBought,
+        id: 1,
+        hidable: true,
+      },
+      {
+        key: "absurdity milestones",
+        name: "Absurdity Milestones",
+        symbol: "🟌",
+        component: "AbsurdityMilestonesTab",
+        // condition: () => PlayerProgress.absurdityUnlocked() || TimeStudy.absurdity.isBought,
+        id: 2,
+        hidable: true,
+      }
+    ]
+  },
+  {
+    key: "colossals",
+    name: "Colossals",
+    hideAt: 2.4,
+    UIClass: "o-tab-btn--colossal",
+    // condition: () => PlayerProgress.absurdityUnlocked() || TimeStudy.absurdity.isBought,
+    id: 11,
+    hidable: true,
+    subtabs: [
+      {
+        key: "genox",
+        name: "Genox",
+        symbol: "Ⰿ",
+        component: "GenoxTab",
+        // condition
+        id: 0,
+        hidable: true,
+      }
+    ]
+  },
+  {
     key: "shop",
     name: "Shop",
     newUIClass: "shop",
