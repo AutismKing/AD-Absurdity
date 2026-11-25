@@ -1253,4 +1253,44 @@ export const normalAchievements = [
     checkRequirement: () => GameEnd.endState > END_STATE_MARKERS.GAME_END && !GameEnd.removeAdditionalEnd,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
+  {
+    id: 191,
+    get name() { return i18n("ach", "ach191title"); },
+    get description() { return i18n("ach", "ach191desc"); },
+  },
+  {
+    id: 192,
+    get name() { return i18n("ach", "ach192title"); },
+    get description() { return i18n("ach", "ach192desc"); },
+  },
+  {
+    id: 193,
+    get name() { return i18n("ach", "ach193title"); },
+    get description() { return i18n("ach", "ach193desc"); },
+  },
+  {
+    id: 194,
+    get name() { return i18n("ach", "ach194title"); },
+    get description() { return i18n("ach", "ach194desc"); },
+  },
+  {
+    id: 195,
+    get name() { return i18n("ach", "ach195title"); },
+    get description() { return i18n("ach", "ach195desc"); },
+  },
+  {
+    id: 196,
+    get name() { return i18n("ach", "ach196title"); },
+    get description() { return i18n("ach", "ach196desc"); },
+  },
+  {
+    id: 197,
+    get name() { return i18n("ach", "ach197title"); },
+    get description() { return i18n("ach", "ach197desc"); },
+  },
+  {
+    id: 198,
+    get name() { return i18n("ach", "ach198title"); },
+    get description() { return i18n("ach", "ach198desc"); },
+  },
 ];
